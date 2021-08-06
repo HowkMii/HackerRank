@@ -33,6 +33,6 @@ function regexVar() {
     /*
      * Do not remove the return statement
      */
-    let  re =new RegExp('^(Mr|Mrs|Ms|Dr|Er)\\.[a-zA-Z]')
+    let  re =new RegExp('^(Mr|Mrs|Ms|Dr|Er)\\.[a-zA-Z]'+$)
     return re;
 }
