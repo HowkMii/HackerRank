@@ -10,7 +10,7 @@ import sys
 def jumpingOnClouds(c, k):
     i=0
     e=100
-    while true:
+    while True:
         e=e-1-2*c[i]
         i=(i+k)%n
         if i==0:
